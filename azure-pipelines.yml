@@ -41,7 +41,6 @@ steps:
       !**\*TestAdapter.dll
       !**\obj\**
     searchFolder: '$(System.DefaultWorkingDirectory)'
-    runInParallel: true
     codeCoverageEnabled: true
 
 - task: PublishBuildArtifacts@1
